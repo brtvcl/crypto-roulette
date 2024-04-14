@@ -5,7 +5,7 @@ seeds = false
 skip-lint = false
 
 [programs.localnet]
-roulette = "FWnbqf2rUMkLjxUiWtBKhgSKfsqqZSrxjmifBhWPQieQ"
+roulette = "65n1nbeq99EoGUje3bLAiZDgY6WNFCZ4AicEY1WdGoyB"
 
 [registry]
 url = "https://api.apr.dev"

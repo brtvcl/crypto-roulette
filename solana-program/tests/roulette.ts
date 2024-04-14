@@ -4,12 +4,12 @@ import { web3, AnchorProvider } from '@project-serum/anchor';
 import { LAMPORTS_PER_SOL } from '@solana/web3.js';
 const SystemProgram = web3.SystemProgram;
 
-describe('casino', () => {
+describe('roulette', () => {
   const provider = AnchorProvider.local();
   anchor.setProvider(provider);
   const tableWallet = anchor.web3.Keypair.generate();
 
-  const program = anchor.workspace.Casino;
+  const program = anchor.workspace.Roulette;
 
   let betters = new Array(13).fill(null);
   before(async function () {
